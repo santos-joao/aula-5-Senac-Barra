@@ -7,4 +7,11 @@ elif(classe==2):
     Escolha = "Mago"
 else:
     Escolha = "Arqueiro"
+
+Arma = int(input("\nEscolha 1 para arma longa\nEscolha 2 para arma curta:\n"))
+if(Arma == 1):
+    Selecao = "Longo Alcance"
+else:
+    Selecao = "Curto Alcance"
     
+print(f"Você escolheu:\nClasse:{Escolha}\nArma:{Selecao}")
